@@ -1,11 +1,12 @@
+
 //CARREGAR A PÁGINA
 document.addEventListener('DOMContentLoaded',()=>{
     //DECLARANDO AS VARIAVEIS COM DOM
     const videoContainer =document.querySelector('.video-container');
     const loginContainer =document.querySelector('.login-container');
     const formLogin =document.getElementById('form-login');
-    const botaoEntrar =document.getElementById('btnentrar');
-    const botaoSair =document.getElementById('btntrocar');
+    const botaoEntrar =document.getElementById('btnEntrar');
+    const botaoSair =document.getElementById('btnTrocar');
     const mensagem = document.getElementById('mensagem');
     
     
@@ -81,4 +82,3 @@ document.addEventListener('DOMContentLoaded',()=>{
             })
         }
     });
-    

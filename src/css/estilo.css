@@ -39,9 +39,11 @@ body{
     order:1;
 }
 
-.video-container video:hover{
-    animation: efeitoVideo 3.6s infinite;
+.video-container:hover > video,
+.video-container:hover > #sombra{
+    animation: efeito 3.6s infinite;
 }
+
 
 #sombra{
     width: 400px;
@@ -70,19 +72,6 @@ body{
     }
 }
 
-@keyframes efeitoVideo{
-    0%{
-        transform: translateY(0);
-    }
-
-    50%{
-        transform: scale(0.85, 0.85);
-    }
-
-    100%{
-        transform: translateY(0);
-    }
-}
 
 
 .login-container{
@@ -124,6 +113,7 @@ body{
     border-radius: 10px;
     transition:  all 200ms linear;
     margin-left: 25%;
+    font-family: 'panchang-regular';
 }
 #btnentrar:hover{
     background: greenyellow;
@@ -135,6 +125,7 @@ body{
     color:blue;
     border-radius: 10px;
     transition:  all 200ms linear;
+    font-family: 'panchang-regular';
 }
 #btntrocar:hover{
     background: #555;
